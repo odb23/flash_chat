@@ -10,7 +10,7 @@ class FlashChat extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-//      home: WelcomeScreen(),    Does the same work as the home property
+//      home: WelcomeScreen(),    Does the same work as the initialRoute property
       initialRoute: WelcomeScreen.id,
       routes: {
         WelcomeScreen.id : (context) => WelcomeScreen(),
